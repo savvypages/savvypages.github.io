@@ -1,0 +1,31 @@
+body {
+    background-color: grey;
+    color: aqua;
+    font-size: 1.1em;
+}
+h1 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 2em;
+    color: black;
+    background-color: #80ced6
+}
+h2 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 2em;
+    color: black;
+    background-color: red;
+    
+}
+h3 {
+    color: black
+    background-color: orange;
+}
+
+div {
+  background-color: #d5f4e6;
+}
+
+span {
+  background-color: yellow;
+}
+
