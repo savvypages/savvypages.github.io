@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&family=Lobster+Two&family=Montserrat&family=Playfair+Display&family=Poiret+One&display=swap');
+
+
+.container {
+    display: grid;
+    background-color: #6e6570;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto auto;
+    width: auto;
+}
+
+
+body {
+    font-family: "Playfair Display", "serif";
+    color: bisque;
+}
+
+#manuel {
+    background-color: #6e6570;
+    font-family: "Lobster Two", "cursive";
+    font-size: 49px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 7.5px;
+
+    grid-row-start: 2;
+    grid-column-start: 1;
+ 
+    grid-row-end: 3;
+    grid-column-end: 2;
+
+    text-align: center;
+}
+
+#manuelProjects {
+    background-color: #6e6570;
+    font-family: "Lobster Two", "cursive";
+    font-size: 49px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 7.5px;
+
+    grid-row-start: 2;
+    grid-column-start: 1;
+ 
+    grid-row-end: 3;
+    grid-column-end: 2;
+
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+}
+
+#pic {
+    background-color: #6e6570;
+
+    grid-row-start: 2;
+    grid-column-start: 2;
+ 
+    grid-row-end: 3;
+    grid-column-end: 3;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    /* padding-top: 275px; */
+    font-family: "Montserrat", sans-serif;
+}
+
+#projectsPage {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 100px;
+        font-family: "Montserrat", sans-serif;
+}
+
+#about {
+    background-color: #6e6570;
+
+    grid-row-start: 2;
+    grid-column-start: 3;
+ 
+    grid-row-end: 3;
+    grid-column-end: 4;
+
+    padding-top: 275px;
+    padding-right: 50px;
+    padding-left: 50px;
+    text-align: justify;
+}
+
+.maria {
+    background-color: #FCEDFF;
+    color:#453e46;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-right: 10px;
+    font-weight: 700;
+
+    grid-row-start: 1;
+    grid-column-start: 1;
+ 
+    grid-row-end: 2;
+    grid-column-end: 5;
+
+    text-align: right;
+}
+
+#projects {
+    background-color: #6e6570;
+
+    grid-row-start: 2;
+    grid-column-start: 3;
+ 
+    grid-row-end: 3;
+    grid-column-end: 4;
+
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    text-align: justify;
+}
+
+#contact {
+    background-color: #6e6570;
+    color: purple;
+
+    grid-row-start: 1;
+    grid-column-start: 2;
+ 
+    grid-row-end: 3;
+    grid-column-end: 5;
+
+    padding-top: 200px;
+    padding-right: 50px;
+    padding-left: 50px;
+    text-align: justify;
+}
+
+form {
+    color: purple;
+}
+
+.sidebar {
+
+    grid-row-start: 1;
+    grid-column-start: 4;
+ 
+    grid-row-end: 3;
+    grid-column-end: 5;
+
+    
+}
+
+input {
+    width: 50%;
+  }
